@@ -1,0 +1,39 @@
+#promo {
+  text-align: center;
+  padding: 40px;
+  background: url(../../assets/img/horsejumpingdark1.jpg) no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 576px) {
+  #promo {
+    padding: 20px;
+  }
+}
+
+#promo .jumbotron {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgba(255,255,255,0.50);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  #promo .jumbotron {
+    padding: 20px;
+  }
+}
+
+img.rock {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.salesagent {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
